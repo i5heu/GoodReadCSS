@@ -5,12 +5,99 @@
 
 .GoodReadCSS h1{
   display: block;
-  font-size: 1.8em;
+  font-size: 2.3em;
   border-left: 1px solid black;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 .GoodReadCSS h2{
   display: block;
-  font-size: 1.3em;
+  font-size: 1.8em;
+  background: #efefef;
+  margin-top: 1em;
+  margin-bottom: 1.1em;
+}
 
+.GoodReadCSS h3{
+  display: block;
+  font-size: 1.3em;
+  background: #efefef;
+  border: 0;
+  margin-top: 1em;
+  margin-bottom: 1.3em;
+}
+
+.GoodReadCSS h4{
+  /*text-align: center;*/
+  display: block;
+  font-size: 1em;
+  background: #efefef;
+  border: 0;
+  margin-top: 1em;
+  margin-bottom: 1.3em;
+}
+
+
+.GoodReadCSS h5{
+  text-align: center;
+  display: block;
+  font-size: 1.3em;
+  background: #000;
+  color: #fff;
+  border-radius:6px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+.GoodReadCSS h6{
+  border-left: 1px solid black;
+  color: #000;
+  display: block;
+  font-size: 2.5em;
+  font-weight: bold;
+  border: 0;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
+}
+
+
+.GoodReadCSS hr{
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+.GoodReadCSS blockquote{
+  border:2px solid black;
+  border-radius: 5px;
+  padding-left: 0.3em;
+  padding-right: 0.2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  box-shadow: 3px 3px 15px #000;
+}
+
+.GoodReadCSS tr:nth-child(even), .GoodReadCSS li:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+.GoodReadCSS table, .GoodReadCSS ul, .GoodReadCSS ol{
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  padding-left: 1.3em;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.GoodReadCSS pre, .GoodReadCSS code{
+  background:#000;
+  color: #ffc000;
+  margin: 1em 6px 1em 6px;
+  white-space: pre-wrap;
+  max-width: 99%;
+  box-shadow: 1px 1px 3px 3px #000;
 }
